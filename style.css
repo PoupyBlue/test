@@ -1,0 +1,262 @@
+html,body
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.Page1
+{
+	background-image: url(images/premCouv.png);
+	height: 100%;
+	width: 100%; 
+	top: 0;
+	display: table;
+	background-size: cover;
+	background-position: center;
+}
+
+.sousPage1 {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	height: 100%;
+}
+
+.content {
+	max-width: 500px;
+	text-align: center;
+	margin: auto;
+}
+
+.content h1{
+	font-size: 700%;
+	font-family: 'Carter One', cursive;
+	color: white;
+	text-shadow: 0 0 100px #000000;
+}
+
+.content h2{
+	font-size: 200%;
+	font-family: 'Carter One', cursive;
+	color: white;
+	text-shadow: 0 0 100px #000000;
+	border: 4px solid;
+	border-radius: 15px;
+}
+
+.pageType {
+	background-color: white;
+	height: 100%;
+	width: 100%; 
+	top: 0;
+	display: table;
+	flex-direction: column;
+	margin-bottom: 60px;
+	margin-top: 60px;
+}
+
+.titreSection {
+	font-size: 300%;
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	text-shadow: 0 0 30px #E1E1E1;
+	text-align: center;
+	margin: auto;
+
+}
+
+.conteneurType {
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+
+.profil {
+	background-color: #EBEBEB;
+	border: 3px solid;
+	border-radius: 15px;
+	border-color: #E1E1E1;
+	height: 250px;
+	width: 450px;
+	margin: 3%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-content: center;
+}
+
+.profil img {
+	height: 150px;
+	width: 120px;
+	border-radius: 10px;
+	border: 2px solid;
+	border-color: black;
+	margin: 2%;
+	object-fit: fill;
+	object-position: center;
+}
+
+.profilText {
+	max-width: 300px;
+	vertical-align: middle;
+}
+
+
+.profilText h1 {
+	text-align: center;
+	text-decoration: underline;
+	margin: 3%;
+	font-family: 'Barlow Condensed', sans-serif;
+}
+
+.profilText p {
+	text-align: justify;
+	margin: auto;
+	font-family: 'Barlow Condensed', sans-serif;
+}
+
+.aVenir {
+	height: 200px;
+	width: 300px;
+	text-align: center;
+	text-decoration: underline;
+	margin: 3%;
+	font-family: 'Barlow Condensed', sans-serif;
+}
+.citation {
+	text-align: justify;
+	max-width: 350px;
+	margin: auto;
+	font-size: 120%;
+	font-family: 'Architects Daughter', cursive;
+}
+
+.profil a {
+	background-color: #9DD7DF;
+	text-align: center;
+	border: 5px solid;
+	border-color: #9DD7DF;
+	margin: auto;
+	font-weight: 150%;
+	border-radius: 500px;
+}
+
+.conteneurImg {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	height: 100%;
+}
+
+.conteneurImg img {
+	max-width: 100%;
+	height: auto;
+	object-position: center;
+	object-fit: cover;
+	margin-top: 20px;
+}
+
+.Page4 {
+	background-color: green;
+	height: 100%;
+	width: 100%; 
+	top: 0;
+	display: table;
+}
+
+.encadreInfo {
+	background-color: white;
+	border: 3px solid;
+	border-radius: 15px;
+	border-color: #E1E1E1;
+	height: 700px;
+	width: 300px;
+	margin: 3%;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.encadreInfo img {
+	height: 150px;
+	width: 275px;
+	border-radius: 10px;
+	border: 2px solid;
+	border-color: black;
+	margin: 10px;
+	object-fit: fill;
+	object-position: center;
+}
+
+.encadreInfo h1 {
+	height: 50px;
+	font-size: 200%;
+	text-align: center;
+	text-decoration: underline;
+	margin: 3%;
+	font-family: 'Barlow Condensed', sans-serif;
+}
+
+.encadreInfo p {
+	height: 300px;
+	text-align: justify;
+	font-size: 120%;
+	margin: 3%;
+	font-family: 'Barlow Condensed', sans-serif;
+}
+
+.infoPlus {
+	height: 200px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.infoPlus a {
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 150%;
+	margin: 3%;
+	font-family: 'Barlow Condensed', sans-serif;
+	background-color: #9DD7DF;
+	border: 10px solid;
+	border-radius: 20px;
+	border-color: #9DD7DF;
+}
+
+#page3 {
+	background-color: #EBEBEB;
+}
+
+#pageFin {
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+}
+.callToAction {
+	font-size: 100%;
+	height: 50px;
+	width: 900px;
+}
+.callToActionBouton {
+	font-size: 40%;
+	height: 50px;
+	width: 300px;
+}
+
+.sectionFin {
+	margin-bottom: 0;
+	background-color: #9DD7DF;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+.sectionFin p {
+	text-align: center;
+	color: #76BAC4;
+}
