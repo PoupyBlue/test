@@ -28,8 +28,8 @@ html,body
 	max-width: 500px;
 	text-align: center;
 	margin: auto;
-}
 
+}
 .content:hover {
 	transform: scale(1.5);
 	transition-duration: 10s;
@@ -40,6 +40,7 @@ html,body
 	font-family: 'Carter One', cursive;
 	color: white;
 	text-shadow: 0 0 100px #000000;
+
 }
 
 .content h2{
@@ -92,6 +93,7 @@ html,body
 	flex-wrap: wrap;
 	justify-content: flex-start;
 	align-content: center;
+
 }
 
 .profil:hover {
@@ -234,10 +236,19 @@ html,body
 	font-size: 150%;
 	margin: 3%;
 	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: bold;
 	background-color: #9DD7DF;
-	border: 10px solid;
+	border: 2px solid;
 	border-radius: 20px;
-	border-color: #9DD7DF;
+	border-color: #3477A8;
+	padding: 5px 8px;
+}
+
+.infoPlus a:hover {
+	transform: scale(1.06);
+	transition-duration: 400ms;
+	background-color: #3477A8;
+
 }
 
 #page3 {
@@ -253,6 +264,10 @@ html,body
 	font-size: 100%;
 	height: 50px;
 	width: 900px;
+	border: 2px solid;
+	border-radius: 30px;
+	border-color: #9DD7DF;
+	padding: 5px 15px;
 }
 .callToActionBouton {
 	font-size: 40%;
