@@ -30,6 +30,11 @@ html,body
 	margin: auto;
 }
 
+.content:hover {
+	transform: scale(1.5);
+	transition-duration: 10s;
+}
+
 .content h1{
 	font-size: 700%;
 	font-family: 'Carter One', cursive;
@@ -87,6 +92,13 @@ html,body
 	flex-wrap: wrap;
 	justify-content: flex-start;
 	align-content: center;
+}
+
+.profil:hover {
+	transform: scale(1.03);
+	transition-duration: 300ms;
+	border-color: #9DD7DF;
+
 }
 
 .profil img {
