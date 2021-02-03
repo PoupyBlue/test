@@ -70,16 +70,13 @@ html,body
 	text-shadow: 0 0 30px #E1E1E1;
 	text-align: center;
 	margin: auto;
-
 }
 
 .conteneurType {
-	background-color: white;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
-
 
 .profil {
 	background-color: #EBEBEB;
@@ -89,16 +86,17 @@ html,body
 	height: 250px;
 	width: 450px;
 	margin: 3%;
+	box-shadow: 10px 10px 15px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-start;
 	align-content: center;
-
+	transition: background-color 0.2s, transform 0.4s cubic-bezier(.52,.1,.75,1.87), box-shadow 0.4s cubic-bezier(.52,.1,.75,1.87);
 }
 
 .profil:hover {
-	transform: scale(1.03);
-	transition-duration: 300ms;
+	transform: scale(1.05);
+	box-shadow: 30px 30px 50px;
 	border-color: #9DD7DF;
 
 }
@@ -159,6 +157,7 @@ html,body
 	border-radius: 500px;
 }
 
+
 .conteneurImg {
 	display: table-cell;
 	vertical-align: middle;
@@ -190,8 +189,10 @@ html,body
 	height: 700px;
 	width: 300px;
 	margin: 3%;
+	box-shadow: 0 0 20px;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	transition: background-color 0.2s, transform 0.4s cubic-bezier(.52,.1,.75,1.87), box-shadow 0.4s cubic-bezier(.52,.1,.75,1.87);
 }
 
 .encadreInfo img {
@@ -222,6 +223,12 @@ html,body
 	font-family: 'Barlow Condensed', sans-serif;
 }
 
+.encadreInfo:hover {
+	transform: scale(1.02);
+	border-color: #9DD7DF;
+	box-shadow: 0 0 50px;
+}
+
 .infoPlus {
 	height: 200px;
 	display: flex;
@@ -242,11 +249,11 @@ html,body
 	border-radius: 20px;
 	border-color: #3477A8;
 	padding: 5px 8px;
+	transition: background-color 0.4s, transform 0.4s;
 }
 
 .infoPlus a:hover {
-	transform: scale(1.06);
-	transition-duration: 400ms;
+	transform: scale(1.04);
 	background-color: #3477A8;
 
 }
